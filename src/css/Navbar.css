@@ -67,6 +67,9 @@
         display: block; /* Muestra el botón de hamburguesa */
     }
 
+    .nav-logo{
+        width: 80px;
+    }
     .contenedor-navbar {
         display: none;
         flex-direction: column;

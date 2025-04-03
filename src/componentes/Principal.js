@@ -8,7 +8,6 @@ function Principal() {
       <div className="banner" style={{ backgroundImage: `url(${fondo})` }}>
         <div className="banner-overlay">
           <h1>PRIMER CONGRESO PATAGÓNICO DE ALIMENTOS (I CoPat-Al)</h1>
-          <p className="subtitulo">Analia Schpetter</p>
         </div>
       </div>
 
