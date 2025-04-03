@@ -1,29 +1,24 @@
-
-
-.nav-logo {
-    width: 50px;
-    height: auto;
-}
-
 .navbar-container {
     width: 100%;
     background-color: #0073a8;
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
+    position: relative;
 }
 
 .nav-logo {
     max-width: 120px;
+    height: auto;
     margin-left: 20px;
 }
 
+/* Estilos generales del menú */
 .contenedor-navbar {
-    margin-right: 20px;
-    flex-grow: 1; 
+    flex-grow: 1;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .nav-links {
@@ -33,7 +28,6 @@
     display: flex;
     gap: 15px;
 }
-
 
 .nav-links li {
     display: inline;
@@ -45,9 +39,74 @@
     font-weight: bold;
     padding: 5px 10px;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 .nav-links a:hover {
     background-color: rgba(51, 43, 43, 0.63);
     border-radius: 5px;
+}
+
+/* Botón menú hamburguesa */
+.menu-toggle {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    display: none;
+    z-index: 1000;
+}
+
+/* 📱 Estilos para móviles */
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: block; /* Muestra el botón de hamburguesa */
+    }
+
+    .contenedor-navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #005a87;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0;
+        z-index: 999;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contenedor-navbar.active {
+        display: flex; /* Activa el menú cuando se abre */
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* 💻 Pantallas grandes */
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none; /* Oculta el botón en pantallas grandes */
+    }
+
+    .contenedor-navbar {
+        display: flex !important; /* Asegura que el menú siempre se vea en escritorio */
+        flex-direction: row;
+        position: relative;
+        width: auto;
+        background: none;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 20px;
+    }
 }

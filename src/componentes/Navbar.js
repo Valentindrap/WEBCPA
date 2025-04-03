@@ -1,26 +1,59 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import logo from "../img/logo.png";
 import "../css/Navbar.css";
-import { Link } from "react-router-dom";
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 767);
+            if (window.innerWidth > 767) {
+                setMenuOpen(false); // Cierra el menú en pantallas grandes
+            }
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
-        <div>
-            
-            <nav className="navbar-container">
-                <img src={logo} className="img-thumbnail nav-logo" alt="logo" />
-                <div className="contenedor-navbar">
-                    <ul className="nav-links">
-                        <Link to={'/'}><li><a href="#">Inicio</a></li></Link>
-                        <Link to={'/organizadores'}><li><a href="#">Organizadores</a></li></Link>
-                        <Link to={'/cronograma'}><li><a href="#">Cronograma</a></li></Link>
-                        <Link to={'/inscripciones'}><li><a href="#">Inscripciones</a></li></Link>
-                        <Link to={'/areas-tematicas'}><li><a href="#">Áreas Temáticas</a></li></Link>
-                        <Link to={'/presentacion-trabajos'}><li><a href="#">Presentación de Trabajos</a></li></Link>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav className="navbar-container">
+            <img src={logo} className="img-thumbnail nav-logo" alt="logo" />
+
+            {/* Botón menú hamburguesa en móviles */}
+            <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+                {menuOpen ? "✖" : "☰"}
+            </button>
+
+            {/* Contenedor del menú */}
+            <div className={`contenedor-navbar ${menuOpen ? "active" : ""}`}>
+                <ul className="nav-links">
+                    {[
+                        { path: "/", label: "Inicio" },
+                        { path: "/organizadores", label: "Organizadores" },
+                        { path: "/cronograma", label: "Cronograma" },
+                        { path: "/inscripciones", label: "Inscripciones" },
+                        { path: "/areas-tematicas", label: "Áreas Temáticas" },
+                        { path: "/presentacion-trabajos", label: "Presentación de Trabajos" }
+                    ].map((item, index) => (
+                        <motion.li
+                            key={item.path}
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.1 * index, duration: 0.3 }}
+                        >
+                            <Link to={item.path} onClick={() => setMenuOpen(false)}>
+                                {item.label}
+                            </Link>
+                        </motion.li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
     );
 }
 

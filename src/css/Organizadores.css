@@ -1,24 +1,81 @@
 .organizadores {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.organizadores h1, 
+.organizadores h2 {
+  color: #003366;
+  text-align: center;
+}
+
+/* Lista */
+.organizadores ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.organizadores ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* 🌍 Media Queries para Responsividad */
+
+/* 📱 Móviles (hasta 480px) */
+@media (max-width: 480px) {
+  .organizadores {
+      padding: 15px;
+      margin: 10px;
   }
-  
+
   .organizadores h1, .organizadores h2 {
-    color: #003366;
+      font-size: 20px;
   }
-  
+
   .organizadores ul {
-    margin-top: 10px;
-    padding-left: 20px;
+      padding-left: 10px;
   }
-  
+
   .organizadores ul li {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
+      font-size: 14px;
+      line-height: 1.4;
   }
-  
+}
+
+/* 📟 Tablets (481px - 1024px) */
+@media (max-width: 1024px) {
+  .organizadores {
+      max-width: 90%;
+      padding: 18px;
+  }
+
+  .organizadores h1 {
+      font-size: 24px;
+  }
+
+  .organizadores ul li {
+      font-size: 15px;
+  }
+}
+
+/* 🖥️ Pantallas grandes (1366px - 1920px) */
+@media (min-width: 1366px) {
+  .organizadores {
+      max-width: 1100px;
+  }
+
+  .organizadores h1 {
+      font-size: 28px;
+  }
+
+  .organizadores ul li {
+      font-size: 18px;
+  }
+}

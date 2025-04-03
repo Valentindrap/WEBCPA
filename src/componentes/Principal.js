@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Principal.css';
-import fondo from '../img/fondo.jpg';
+import fondo from '../img/fondo.png';
 
 function Principal() {
   return (

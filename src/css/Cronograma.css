@@ -1,31 +1,102 @@
 .cronograma {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cronograma h1 {
+  color: #003366;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cronograma table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cronograma th, 
+.cronograma td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.cronograma th {
+  background-color: #3EB489;
+  color: white;
+}
+
+/* Para teléfonos (menos de 768px) */
+@media (max-width: 767px) {
+  .cronograma {
+      padding: 10px;
+      width: 95%;
   }
-  
+
   .cronograma h1 {
-    color: #003366;
-    text-align: center;
+      font-size: 1.4rem;
   }
-  
+
   .cronograma table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
   }
-  
-  .cronograma th, .cronograma td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+
+  .cronograma th, 
+  .cronograma td {
+      font-size: 14px;
+      padding: 8px;
   }
-  
-  .cronograma th {
-    background-color: #3EB489;
-    color: white;
+}
+
+/* Para tabletas (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cronograma {
+      padding: 15px;
+      width: 85%;
   }
-  
+
+  .cronograma h1 {
+      font-size: 1.8rem;
+  }
+
+  .cronograma th, 
+  .cronograma td {
+      font-size: 15px;
+      padding: 9px;
+  }
+}
+
+/* Para resolución 1366x768 */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .cronograma {
+      width: 80%;
+  }
+
+  .cronograma h1 {
+      font-size: 2rem;
+  }
+}
+
+/* Para resolución 1920x1080 */
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .cronograma {
+      width: 70%;
+  }
+
+  .cronograma h1 {
+      font-size: 2.2rem;
+  }
+
+  .cronograma th, 
+  .cronograma td {
+      font-size: 17px;
+  }
+}
