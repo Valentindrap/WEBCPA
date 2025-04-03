@@ -5,8 +5,10 @@ function PresentacionTrabajos() {
   return (
     <div className="presentacion-trabajos">
       <h1>Presentación de Trabajos</h1>
-      <p>Los participantes podrán enviar sus trabajos científicos para ser presentados en formato de póster o ponencia.</p>
-
+      <p>Informacion de como deber ser entregado los trabajos, se puede quitar esta seccion.
+        
+      </p>
+      <h2>Ejemplo:</h2><br></br>
       <h2>Fechas Importantes</h2>
       <ul>
         <li><strong>Recepción de trabajos:</strong> Hasta el 15 de septiembre</li>

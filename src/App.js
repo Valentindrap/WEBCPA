@@ -7,7 +7,7 @@ import Cronograma from './componentes/Cronograma.js';
 import Inscripciones from './componentes/Inscripciones.js';
 import AreasTematicas from './componentes/AreasTematicas.js';
 import PresentacionTrabajos from './componentes/PresentacionTrabajos.js';
-import InformacionGeneral from './componentes/InformacionGeneral.js';
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
           <Route path='/inscripciones' element={<Inscripciones/>} />
           <Route path='/areas-tematicas' element={<AreasTematicas/>} />
           <Route path='/presentacion-trabajos' element={<PresentacionTrabajos/>} />
-          <Route path='/informacion-general' element={<InformacionGeneral/>} />
         </Routes>
       </BrowserRouter>
     </div>

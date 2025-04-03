@@ -18,17 +18,17 @@ function Cronograma() {
         <tbody>
           <tr>
             <td>29 de octubre</td>
-            <td>Acreditaciones</td>
+            <td>SIMPOSIOS - CONFERENCIAS </td>
             <td>08:00 - 10:00</td>
           </tr>
           <tr>
             <td>29 de octubre</td>
-            <td>Conferencia Inaugural</td>
+            <td>MESAS DE DIÁLOGO</td>
             <td>10:30 - 12:00</td>
           </tr>
           <tr>
             <td>30 de octubre</td>
-            <td>Mesas temáticas</td>
+            <td>PRESENTACIÓN DE PÓSTERS</td>
             <td>09:00 - 17:00</td>
           </tr>
         </tbody>

@@ -5,7 +5,7 @@ function Inscripciones() {
   return (
     <div className="inscripciones">
       <h1>Inscripciones</h1>
-      <p>Para participar en el congreso, complete el formulario de inscripción.</p>
+      <p>En esta pagina iria la informacion o el google doc de inscricpcion</p>
     </div>
   );
 }
