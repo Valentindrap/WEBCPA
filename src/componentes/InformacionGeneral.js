@@ -7,16 +7,17 @@ function InformacionGeneral() {
       <h1>Información General</h1>
 
       <section>
-        <h2>Cómo Llegar</h2>
+        <h2>Cómo Llegar <a href='https://maps.app.goo.gl/9R11cJFoBf3UfkPLA' target="_blank">🗺️</a></h2>
         <p>
           General Pico se encuentra en la provincia de La Pampa, Argentina. Se puede acceder por Ruta Nacional 188 y Ruta Provincial 1. También cuenta con terminal de ómnibus y aeropuerto cercano.
         </p>
+        
       </section>
 
       <section>
         <h2>Alojamientos</h2>
         <ul>
-          <li><strong>General Pico:</strong> Hoteles, departamentos y hospedajes en distintos puntos de la ciudad.</li>
+          <li><strong>General Pico:</strong> Hoteles, departamentos y hospedajes en distintos puntos de la ciudad. <a href='https://drive.google.com/file/d/1tSs0377q_cSSCBBTA6pwsFcCCyFMO-xJ/view' target='_blank'>Presiona aqui para mas información</a></li>
           <li><strong>Intendente Alvear:</strong> A 45 km de Pico, con alojamientos tranquilos y accesibles.</li>
           <li><strong>Eduardo Castex:</strong> Alternativa intermedia, ideal si se viaja en vehículo.</li>
           <li><strong>Santa Rosa:</strong> Capital de la provincia, con amplia oferta hotelera (a 130 km).</li>
@@ -26,7 +27,7 @@ function InformacionGeneral() {
       <section>
         <h2>Teléfonos Útiles</h2>
         <ul>
-          <li><strong>Emergencias:</strong> 911</li>
+          <li><strong>Emergencias:</strong> 101 / 107</li>
           <li><strong>Hospital Gobernador Centeno:</strong> (02302) 421500</li>
           <li><strong>Terminal de Ómnibus:</strong> (02302) 428646</li>
           <li><strong>Turismo General Pico:</strong> (02302) 436400</li>
