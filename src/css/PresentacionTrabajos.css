@@ -1,70 +1,94 @@
 .presentacion-trabajos {
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4F5538; /* musgo oscuro */
 }
 
-/* Estilo para títulos */
-.presentacion-trabajos h1, 
-.presentacion-trabajos h2 {
-  color: #003366;
+.presentacion-trabajos h1 {
   text-align: center;
+  font-size: 2.5rem;
+  color: #A6582D; /* ladrillo */
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
-/* Lista */
+.presentacion-trabajos h2 {
+  font-size: 1.4rem;
+  color: #548488; /* menta */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.presentacion-trabajos p {
+  font-size: 1rem;
+  color: #6D6A5F; /* gris cálido */
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Estilo para lista de fechas */
 .presentacion-trabajos ul {
-  margin-top: 10px;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 0;
 }
 
 .presentacion-trabajos ul li {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444;
+  font-size: 1rem;
+  color: #5F5647; /* gris-marrón */
+  margin-bottom: 12px;
+  background-color: #FAF8F2; /* beige */
+  padding: 12px 18px;
+  border-radius: 8px;
+  border-left: 4px solid #A1C7AA; /* borde menta */
+  transition: background-color 0.3s ease;
 }
 
-/* 📱 Modo responsive */
+.presentacion-trabajos ul li:hover {
+  background-color: #f1f8f3;
+}
+
+/* Responsive */
 @media (max-width: 1024px) {
   .presentacion-trabajos {
-      max-width: 90%;
-      padding: 15px;
+    padding: 20px;
+    width: 90%;
   }
 
   .presentacion-trabajos h1 {
-      font-size: 22px;
+    font-size: 2rem;
   }
 
   .presentacion-trabajos h2 {
-      font-size: 18px;
+    font-size: 1.3rem;
   }
 
   .presentacion-trabajos ul li {
-      font-size: 14px;
+    font-size: 0.95rem;
   }
 }
 
 @media (max-width: 768px) {
   .presentacion-trabajos {
-      max-width: 95%;
-      padding: 10px;
+    padding: 15px;
+    width: 95%;
   }
 
   .presentacion-trabajos h1 {
-      font-size: 20px;
+    font-size: 1.8rem;
   }
 
   .presentacion-trabajos h2 {
-      font-size: 16px;
+    font-size: 1.1rem;
   }
 
-  .presentacion-trabajos ul {
-      padding-left: 10px;
-  }
-
+  .presentacion-trabajos p,
   .presentacion-trabajos ul li {
-      font-size: 13px;
+    font-size: 0.9rem;
   }
 }

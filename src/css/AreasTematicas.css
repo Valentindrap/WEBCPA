@@ -1,92 +1,117 @@
 .areas-tematicas {
-  max-width: 1200px;
+  max-width: 2000px;
   width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4F5538; /* musgo oscuro */
 }
 
 .areas-tematicas h1 {
-  color: #003366;
   text-align: center;
-  font-size: 2rem;
+  color: #A6582D; /* marrón ladrillo */
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
+/* Estilo de cada área temática */
 .areas-tematicas ul {
-  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.areas-tematicas ul > li {
+  background-color: #FAF8F2; /* beige claro */
+  margin-bottom: 25px;
+  padding: 20px;
+  border-left: 6px solid #A1C7AA; /* menta */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.areas-tematicas ul > li:hover {
+  background-color: #f0f8f4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.areas-tematicas h2 {
+  font-size: 1.4rem;
+  color: #4E3D2A; /* marrón suave */
+  margin-bottom: 10px;
+}
+
+.areas-tematicas p {
+  font-size: 1rem;
+  color: #6D6A5F; /* gris cálido */
+  margin-bottom: 10px;
+}
+
+.areas-tematicas li ul {
+  list-style-type: disc;
   padding-left: 20px;
+  margin-top: 10px;
 }
 
-.areas-tematicas ul li {
-  font-size: 16px;
+.areas-tematicas li ul li {
+  font-size: 0.95rem;
   line-height: 1.6;
-  color: #444;
+  color: #5F5647;
 }
 
-/* Para teléfonos (menos de 768px) */
+/* Responsive para móviles */
 @media (max-width: 767px) {
   .areas-tematicas {
-      padding: 10px;
-      width: 95%;
+    padding: 20px;
+    width: 95%;
   }
 
   .areas-tematicas h1 {
-      font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
-  .areas-tematicas ul {
-      padding-left: 10px;
+  .areas-tematicas h2 {
+    font-size: 1.2rem;
   }
 
-  .areas-tematicas ul li {
-      font-size: 14px;
+  .areas-tematicas p,
+  .areas-tematicas li ul li {
+    font-size: 0.9rem;
   }
 }
 
-/* Para tabletas (768px a 1024px) */
+/* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .areas-tematicas {
-      padding: 15px;
-      width: 85%;
+    padding: 25px;
+    width: 85%;
   }
 
   .areas-tematicas h1 {
-      font-size: 1.8rem;
-  }
-
-  .areas-tematicas ul li {
-      font-size: 15px;
+    font-size: 2.2rem;
   }
 }
 
-/* Para resolución 1366x768 */
+/* Resoluciones mayores */
 @media (min-width: 1025px) and (max-width: 1366px) {
   .areas-tematicas {
-      width: 80%;
+    width: 80%;
   }
 
   .areas-tematicas h1 {
-      font-size: 2rem;
-  }
-
-  .areas-tematicas ul li {
-      font-size: 16px;
+    font-size: 2.4rem;
   }
 }
 
-/* Para resolución 1920x1080 */
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media (min-width: 1367px) {
   .areas-tematicas {
-      width: 70%;
+    width: 70%;
   }
 
   .areas-tematicas h1 {
-      font-size: 2.2rem;
-  }
-
-  .areas-tematicas ul li {
-      font-size: 17px;
+    font-size: 2.6rem;
   }
 }

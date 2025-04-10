@@ -1,3 +1,16 @@
+:root {
+  --rojo-terracota: #D8492E;
+  --naranja-quemado: #F2843E;
+  --mostaza-suave: #F3D181;
+  --menta-claro: #A1C7AA;
+  --oliva-grisaceo: #7F9774;
+  --teal-suave: #76B6A4;
+  --marron-tierra: #A56C2C;
+  --musgo-oscuro: #4F5538;
+  --texto-claro: #ffffff;
+  --hover-dark: rgba(79, 85, 56, 0.7); /* musgo oscuro translúcido */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +18,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("/src/img/Background.webp") ;
+  
+  background-color: black;
 }
 
 code {

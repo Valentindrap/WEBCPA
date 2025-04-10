@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logo from "../img/logo.png";
+import logo from "../img/Size-logo.webp";
 import "../css/Navbar.css";
 
 function Navbar() {
@@ -35,10 +35,11 @@ function Navbar() {
                     {[
                         { path: "/", label: "Inicio" },
                         { path: "/organizadores", label: "Organizadores" },
-                        { path: "/cronograma", label: "Cronograma" },
+                        { path: "/cronograma", label: "Programa" },
                         { path: "/inscripciones", label: "Inscripciones" },
                         { path: "/areas-tematicas", label: "Áreas Temáticas" },
-                        { path: "/presentacion-trabajos", label: "Presentación de Trabajos" }
+                        { path: "/presentacion-trabajos", label: "Presentación de Trabajos" },
+                        { path: "/InformacionGeneral", label: "Informacion General" }
                     ].map((item, index) => (
                         <motion.li
                             key={item.path}

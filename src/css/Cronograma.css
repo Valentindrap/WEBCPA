@@ -1,102 +1,124 @@
 .cronograma {
-  max-width: 1200px;
+  max-width: 2000px;
   width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4F5538; /* musgo oscuro */
 }
 
 .cronograma h1 {
-  color: #003366;
   text-align: center;
-  font-size: 2rem;
+  color: #F2843E; /* naranja quemado */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
+.cronograma p {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #6D6A5F; /* gris cálido */
+  margin-bottom: 30px;
+}
+
+/* Estilo tabla */
 .cronograma table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.cronograma th, 
+.cronograma th,
 .cronograma td {
-  border: 1px solid #ddd;
-  padding: 10px;
+  padding: 14px 12px;
+  border: 1px solid #e0e0e0;
   text-align: left;
+  font-size: 1rem;
 }
 
 .cronograma th {
-  background-color: #3EB489;
-  color: white;
+  background-color: #A1C7AA; /* menta suave */
+  color: #fff;
+  font-weight: 600;
 }
 
-/* Para teléfonos (menos de 768px) */
+.cronograma td {
+  background-color: #FCFAF6; /* fondo crema claro */
+  color: #5C4A34; /* marrón suave */
+}
+
+/* Responsive */
 @media (max-width: 767px) {
   .cronograma {
-      padding: 10px;
-      width: 95%;
+    padding: 20px;
+    width: 95%;
   }
 
   .cronograma h1 {
-      font-size: 1.4rem;
+    font-size: 1.8rem;
+  }
+
+  .cronograma p {
+    font-size: 0.95rem;
   }
 
   .cronograma table {
-      display: block;
-      overflow-x: auto;
-      white-space: nowrap;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
-  .cronograma th, 
+  .cronograma th,
   .cronograma td {
-      font-size: 14px;
-      padding: 8px;
+    font-size: 0.95rem;
+    padding: 10px;
   }
 }
 
-/* Para tabletas (768px a 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .cronograma {
-      padding: 15px;
-      width: 85%;
+    padding: 25px;
+    width: 85%;
   }
 
   .cronograma h1 {
-      font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
-  .cronograma th, 
+  .cronograma th,
   .cronograma td {
-      font-size: 15px;
-      padding: 9px;
+    font-size: 1rem;
   }
 }
 
-/* Para resolución 1366x768 */
 @media (min-width: 1025px) and (max-width: 1366px) {
   .cronograma {
-      width: 80%;
+    width: 80%;
   }
 
   .cronograma h1 {
-      font-size: 2rem;
+    font-size: 2.4rem;
   }
 }
 
-/* Para resolución 1920x1080 */
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media (min-width: 1367px) {
   .cronograma {
-      width: 70%;
+    width: 70%;
   }
 
   .cronograma h1 {
-      font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 
-  .cronograma th, 
+  .cronograma th,
   .cronograma td {
-      font-size: 17px;
+    font-size: 1.05rem;
   }
 }

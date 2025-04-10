@@ -1,81 +1,110 @@
 .organizadores {
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4F5538; /* musgo oscuro */
+  line-height: 1.7;
 }
 
-/* Títulos */
-.organizadores h1, 
-.organizadores h2 {
-  color: #003366;
+.organizadores h1 {
+  color: #F2843E; /* naranja quemado */
   text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-/* Lista */
+.organizadores h2 {
+  color: #A1C7AA; /* menta claro */
+  font-size: 1.6rem;
+  margin-top: 30px;
+  border-left: 4px solid #A1C7AA;
+  padding-left: 12px;
+}
+
+.organizadores p {
+  font-size: 1.05rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #5da782; /* gris cálido */
+}
+
+/* Listas */
 .organizadores ul {
-  margin-top: 10px;
+  margin-top: 15px;
   padding-left: 20px;
+  list-style: none;
 }
 
 .organizadores ul li {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444;
+  position: relative;
+  font-size: 1rem;
+  color: #b87121; /* marrón tierra */
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
-/* 🌍 Media Queries para Responsividad */
+.organizadores ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #76B6A4; /* teal suave */
+  font-size: 1.2rem;
+  line-height: 1;
+}
 
-/* 📱 Móviles (hasta 480px) */
+/* Responsive - Teléfonos */
 @media (max-width: 480px) {
   .organizadores {
-      padding: 15px;
-      margin: 10px;
-  }
-
-  .organizadores h1, .organizadores h2 {
-      font-size: 20px;
-  }
-
-  .organizadores ul {
-      padding-left: 10px;
-  }
-
-  .organizadores ul li {
-      font-size: 14px;
-      line-height: 1.4;
-  }
-}
-
-/* 📟 Tablets (481px - 1024px) */
-@media (max-width: 1024px) {
-  .organizadores {
-      max-width: 90%;
-      padding: 18px;
+    padding: 20px;
+    width: 95%;
   }
 
   .organizadores h1 {
-      font-size: 24px;
+    font-size: 1.8rem;
+  }
+
+  .organizadores h2 {
+    font-size: 1.3rem;
   }
 
   .organizadores ul li {
-      font-size: 15px;
+    font-size: 0.95rem;
   }
 }
 
-/* 🖥️ Pantallas grandes (1366px - 1920px) */
-@media (min-width: 1366px) {
+/* Tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
   .organizadores {
-      max-width: 1100px;
+    padding: 25px;
+    width: 90%;
   }
 
   .organizadores h1 {
-      font-size: 28px;
+    font-size: 2.2rem;
   }
 
   .organizadores ul li {
-      font-size: 18px;
+    font-size: 1rem;
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1025px) {
+  .organizadores {
+    width: 80%;
+  }
+
+  .organizadores h1 {
+    font-size: 2.7rem;
+  }
+
+  .organizadores ul li {
+    font-size: 1.05rem;
   }
 }

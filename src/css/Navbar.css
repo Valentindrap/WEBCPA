@@ -1,6 +1,19 @@
+:root {
+    --rojo-terracota: #D8492E;
+    --naranja-quemado: #F2843E;
+    --mostaza-suave: #F3D181;
+    --menta-claro: #A1C7AA;
+    --oliva-grisaceo: #7F9774;
+    --teal-suave: #76B6A4;
+    --marron-tierra: #A56C2C;
+    --musgo-oscuro: #4F5538;
+    --texto-claro: #ffffff;
+    --hover-dark: rgba(79, 85, 56, 0.7); /* musgo oscuro translúcido */
+}
+
 .navbar-container {
-    width: 100%;
-    background-color: #0073a8;
+    width: 100%;    
+    background-color: var(--texto-claro);
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -12,6 +25,7 @@
     max-width: 120px;
     height: auto;
     margin-left: 20px;
+    border: none;
 }
 
 /* Estilos generales del menú */
@@ -35,7 +49,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     padding: 5px 10px;
     transition: 0.3s;
@@ -43,7 +57,7 @@
 }
 
 .nav-links a:hover {
-    background-color: rgba(51, 43, 43, 0.63);
+    background-color: var(--hover-dark);
     border-radius: 5px;
 }
 
@@ -52,7 +66,7 @@
     font-size: 28px;
     background: none;
     border: none;
-    color: white;
+    color: var(--marron-tierra);
     cursor: pointer;
     position: absolute;
     right: 20px;
@@ -64,17 +78,18 @@
 /* 📱 Estilos para móviles */
 @media (max-width: 767px) {
     .menu-toggle {
-        display: block; /* Muestra el botón de hamburguesa */
+        display: block;
     }
 
-    .nav-logo{
+    .nav-logo {
         width: 80px;
     }
+
     .contenedor-navbar {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #005a87;
+        background-color: var(--naranja-quemado);
         position: absolute;
         top: 60px;
         left: 0;
@@ -84,7 +99,7 @@
     }
 
     .contenedor-navbar.active {
-        display: flex; /* Activa el menú cuando se abre */
+        display: flex;
     }
 
     .nav-links {
@@ -95,13 +110,13 @@
 }
 
 /* 💻 Pantallas grandes */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .menu-toggle {
-        display: none; /* Oculta el botón en pantallas grandes */
+        display: none;
     }
 
     .contenedor-navbar {
-        display: flex !important; /* Asegura que el menú siempre se vea en escritorio */
+        display: flex !important;
         flex-direction: row;
         position: relative;
         width: auto;
@@ -111,5 +126,13 @@
     .nav-links {
         flex-direction: row;
         gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+
+    .nav-logo {
+        max-width: 80px;
     }
 }

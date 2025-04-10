@@ -11,9 +11,9 @@ function PresentacionTrabajos() {
       <h2>Ejemplo:</h2><br></br>
       <h2>Fechas Importantes</h2>
       <ul>
-        <li><strong>Recepción de trabajos:</strong> Hasta el 15 de septiembre</li>
-        <li><strong>Notificación de aceptación:</strong> 30 de septiembre</li>
-        <li><strong>Envío de versión final:</strong> 10 de octubre</li>
+        <li><strong>Recepción de trabajos:</strong> #</li>
+        <li><strong>Notificación de aceptación:</strong> #</li>
+        <li><strong>Envío de versión final:</strong> #</li>
       </ul>
 
       <h2>Requisitos de Envío</h2>

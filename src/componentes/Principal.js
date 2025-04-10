@@ -1,20 +1,17 @@
 import React from 'react';
 import '../css/Principal.css';
-import fondo from '../img/fondo.png';
+import fondo from '../img/Banner.webp';
 
 function Principal() {
   return (
     <div className="principal">
       <div className="banner" style={{ backgroundImage: `url(${fondo})` }}>
-        <div className="banner-overlay">
-          <h1>PRIMER CONGRESO PATAGÓNICO DE ALIMENTOS (I CoPat-Al)</h1>
-        </div>
+
       </div>
 
       <div className="tarjeta">
-        <h2>PRIMER CONGRESO PATAGÓNICO DE ALIMENTOS (I CoPat-Al)</h2>
         <p>
-          El Congreso Patagónico de Alimentos es un espacio de encuentro entre instituciones académicas, científicas y la industria alimentaria, 
+          <strong>El Congreso Patagónico de Alimentos</strong> es un espacio de encuentro entre instituciones académicas, científicas y la industria alimentaria, 
           con el objetivo de fomentar el desarrollo, la innovación y la colaboración en el sector de los alimentos.
         </p>
 
@@ -24,9 +21,12 @@ function Principal() {
 
         <h3>Objetivos</h3>
         <ul>
-          <li>Establecer vínculos entre instituciones relacionadas con la ciencia y tecnología de alimentos.</li>
-          <li>Consolidar una red patagónica de formación en ciencia y tecnología de alimentos.</li>
-          <li>Divulgar líneas de investigación, innovación y desarrollo en ciencia y tecnología de alimentos.</li>
+          <li>Establecer vínculos entre las instituciones relacionadas al área de la ciencia y tecnología de
+          alimentos y la industria alimentaria.</li>
+          <li>Consolidar una red patagónica de instituciones de formación en el área de la ciencia y
+          tecnología de alimentos.</li>
+          <li>Divulgar las líneas de investigación, innovación y desarrollo de la ciencia y tecnología de
+          alimentos.</li>
         </ul>
       </div>
     </div>
