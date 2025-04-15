@@ -11,11 +11,11 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-logos">
-        <img src={Chubut} alt="UNLPam" className="logo-unlpam" />
+        {/* <img src={Chubut} alt="UNLPam" className="logo-unlpam" />
         <img src={Comahue} alt="UNRN" className="logo-unrn" />
         <img src={UNLPam} alt="UTN" className="logo-utn" />
         <img src={RioNegro} alt="UNCo" className="logo-unco" />
-        <img src={UTN} alt="UDC" className="logo-udc" />
+        <img src={UTN} alt="logo" className="logo-udc" /> */}
       </div>
       <p className="footer-derechos">
         © {new Date().getFullYear()} Universidad Nacional de La Pampa. Todos los derechos reservados.
