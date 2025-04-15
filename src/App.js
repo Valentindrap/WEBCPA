@@ -9,6 +9,7 @@ import AreasTematicas from './componentes/AreasTematicas.js';
 import PresentacionTrabajos from './componentes/PresentacionTrabajos.js';
 import InformacionGeneral from './componentes/InformacionGeneral.js';
 import Footer from './componentes/Footer.js';
+import Auspiciantes from './componentes/Auspiciantes.js';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/areas-tematicas' element={<AreasTematicas/>} />
           <Route path='/presentacion-trabajos' element={<PresentacionTrabajos/>} />
           <Route path='/InformacionGeneral' element={<InformacionGeneral/>} />
+          <Route path='/Auspiciantes' element={<Auspiciantes/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

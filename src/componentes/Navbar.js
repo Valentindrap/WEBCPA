@@ -22,7 +22,7 @@ function Navbar() {
 
     return (
         <nav className="navbar-container">
-            <img src={logo} className="img-thumbnail nav-logo" alt="logo" />
+             <Link to={"/"}><img src={logo}  className="img-thumbnail nav-logo" alt="logo" /></Link>
 
             {/* Botón menú hamburguesa en móviles */}
             <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
@@ -33,13 +33,13 @@ function Navbar() {
             <div className={`contenedor-navbar ${menuOpen ? "active" : ""}`}>
                 <ul className="nav-links text-wrap">
                     {[
-                        { path: "/", label: "Inicio" },
                         { path: "/organizadores", label: "Organizadores" },
                         { path: "/cronograma", label: "Programa" },
                         { path: "/inscripciones", label: "Inscripciones" },
                         { path: "/areas-tematicas", label: "Áreas Temáticas" },
                         { path: "/presentacion-trabajos", label: "Presentación de Trabajos" },
-                        { path: "/InformacionGeneral", label: "Información General" }
+                        { path: "/InformacionGeneral", label: "Información General" },
+                        { path: "/Auspiciantes", label: "Auspiciantes" }
                     ].map((item, index) => (
                         <motion.li
                             key={item.path}

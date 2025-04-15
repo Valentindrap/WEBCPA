@@ -17,7 +17,7 @@ function Principal() {
 
         <h3>Fecha y Sede</h3>
         <p><strong>Fecha:</strong> 29 al 31 de octubre de 2025</p>
-        <p><strong>Sede:</strong> Facultad de Ciencias Veterinarias UNLPam / MÉDANO / Facultad de Ingeniería</p>
+        <p><strong>Sede:</strong> Facultad de Ciencias Veterinarias UNLPam. General Pico. La Pampa</p>
 
         <h3>Objetivos</h3>
         <ul>

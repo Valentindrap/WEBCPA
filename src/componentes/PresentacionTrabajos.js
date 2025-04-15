@@ -8,7 +8,7 @@ function PresentacionTrabajos() {
       <p>Informacion de como deber ser entregado los trabajos, se puede quitar esta seccion.
         
       </p>
-      <h2>Ejemplo:</h2><br></br>
+      <h2>Proximamente...</h2><br></br>
       <h2>Fechas Importantes</h2>
       <ul>
         <li><strong>Recepción de trabajos:</strong> #</li>
