@@ -9,6 +9,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #4F5538; /* musgo suave */
   line-height: 1.6;
+  min-height: 80vh;
 }
 
 .inscripciones h1 {

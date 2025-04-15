@@ -31,7 +31,7 @@ function Navbar() {
 
             {/* Contenedor del menú */}
             <div className={`contenedor-navbar ${menuOpen ? "active" : ""}`}>
-                <ul className="nav-links">
+                <ul className="nav-links text-wrap">
                     {[
                         { path: "/", label: "Inicio" },
                         { path: "/organizadores", label: "Organizadores" },

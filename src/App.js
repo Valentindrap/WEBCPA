@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Principal from './componentes/Principal';
-import Navbar from './componentes/Navbar';
-import Organizadores from './componentes/Organizadores';
+import Principal from './componentes/Principal.js';
+import Navbar from './componentes/Navbar.js';
+import Organizadores from './componentes/Organizadores.js';
 import Cronograma from './componentes/Cronograma.js';
 import Inscripciones from './componentes/Inscripciones.js';
 import AreasTematicas from './componentes/AreasTematicas.js';
