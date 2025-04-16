@@ -5,7 +5,6 @@ function Inscripciones() {
   return (
     <div className="inscripciones">
       <h1>Inscripciones</h1>
-      <p>En esta página iría la información o el Google Form de inscripción</p>
 
       <h2>Aranceles</h2>
       <ul>

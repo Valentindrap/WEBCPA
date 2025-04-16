@@ -9,7 +9,6 @@ function Auspiciantes() {
       <section>
         <h2>Principales</h2>
         <ul>
-          <li><strong>LoobStudio:</strong> Desarrollo web y soluciones digitales. <a href="https://loobstudio.netlify.app/" target="_blank" rel="noreferrer">Visitar sitio</a></li>
           <li><strong>Ejemplo:</strong> Proximamente..</li>
           <li><strong>Ejemplo:</strong> Proximamente..</li>
         </ul>

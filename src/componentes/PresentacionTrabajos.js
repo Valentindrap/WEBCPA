@@ -5,19 +5,16 @@ function PresentacionTrabajos() {
   return (
     <div className="presentacion-trabajos">
       <h1>Presentación de Trabajos</h1>
-      <p>Informacion de como deber ser entregado los trabajos, se puede quitar esta seccion.
-        
-      </p>
-      <h2>Proximamente...</h2><br></br>
+
       <h2>Fechas Importantes</h2>
       <ul>
-        <li><strong>Recepción de trabajos:</strong> #</li>
-        <li><strong>Notificación de aceptación:</strong> #</li>
-        <li><strong>Envío de versión final:</strong> #</li>
+        <li><strong>Recepción de trabajos:</strong> Proximamente</li>
+        <li><strong>Notificación de aceptación:</strong> Proximamente</li>
+        <li><strong>Envío de versión final:</strong> Proximamente</li>
       </ul>
 
       <h2>Requisitos de Envío</h2>
-      <p>Los trabajos deben cumplir con las normas establecidas por el comité organizador.</p>
+      <p>Disponibles proximamente</p>
     </div>
   );
 }

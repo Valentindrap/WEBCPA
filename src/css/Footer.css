@@ -16,7 +16,7 @@
   }
   
   .footer-logos img {
-    height: 60px;
+    height: 40px;
     object-fit: contain;
     transition: transform 0.3s ease;
   }
@@ -44,4 +44,10 @@
 
 @media (min-width: 1025px) and (max-width: 1366px) {
 
+}
+
+@media (min-width: 1500px) {
+  .footer-logos img {
+      height: 60px;
+    }
 }
