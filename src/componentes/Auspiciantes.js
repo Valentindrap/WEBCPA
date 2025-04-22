@@ -24,12 +24,12 @@ function Auspiciantes() {
       </section> */}
 
       <section>
-        <h2>Condiciones para ser sponsors en el primer COPAT-AL</h2>
+        <h2>Condiciones para ser sponsors en el I COPAT-AL</h2>
         <div className="separator"></div>
 
-        <h3>¿Por qué ser sponsor en el primer COPAT-AL?</h3>
+        <h3>¿Por qué ser sponsor en el I COPAT-AL?</h3>
         <p>
-          Siendo sponsor en el primer<strong> Congreso Patagónico de Alimentos 2025</strong> podés posicionar tu marca en el principal encuentro que reúne a la comunidad científico-académica, empresas, productores y emprendedores del sector agroalimentario.
+          Siendo sponsor en el <strong>I Congreso Patagónico de Alimentos 2025</strong> podés posicionar tu marca en el principal encuentro que reúne a la comunidad científico-académica, empresas, productores y emprendedores del sector agroalimentario.
         </p>
         <p>
           Es una forma de darte a conocer mostrando tus productos, servicios y tecnologías en un espacio pensado para crear vínculos estratégicos, generar oportunidades de negocio y potenciar la innovación.
@@ -38,7 +38,7 @@ function Auspiciantes() {
           Esperamos contar con tu apoyo en este evento que impulsa la conexión entre el conocimiento, el desarrollo empresarial y la evolución de la industria alimentaria.
         </p>
 
-        <h3>¿Cómo ser sponsors del primer COPAT-AL?</h3>
+        <h3>¿Cómo ser sponsors en el I COPAT-AL?</h3>
 
         <div className="opciones">
           <div className="opcion-card">
