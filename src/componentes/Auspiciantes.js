@@ -8,7 +8,7 @@ function Auspiciantes() {
 
       <section>
         <h2>Principales</h2>
-        <ul>
+        <ul className="sponsor-list">
           <li><strong>Ejemplo:</strong> Próximamente..</li>
           <li><strong>Ejemplo:</strong> Próximamente..</li>
         </ul>
@@ -16,7 +16,7 @@ function Auspiciantes() {
 
       <section>
         <h2>Auspiciantes Locales</h2>
-        <ul>
+        <ul className="sponsor-list">
           <li><strong>Ejemplo:</strong> Próximamente..</li>
           <li><strong>Ejemplo:</strong> Próximamente..</li>
           <li><strong>Ejemplo:</strong> Próximamente..</li>
@@ -25,7 +25,7 @@ function Auspiciantes() {
 
       <section>
         <h2>Condiciones para ser sponsors en el COPAT-AL</h2>
-        <br></br>
+        <div className="separator"></div>
 
         <h3>¿Por qué ser sponsor en el COPAT-AL?</h3>
         <p>
@@ -40,51 +40,46 @@ function Auspiciantes() {
 
         <h3>¿Cómo ser sponsors del COPAT-AL?</h3>
 
-        <ul>
-          <li>
-            <strong>OPCIÓN 1: STAND FÍSICO</strong>
+        <div className="opciones">
+          <div className="opcion-card">
+            <h4>OPCIÓN 1: STAND FÍSICO</h4>
             <p>
-              En la sede del Congreso contarán con un espacio físico (Stand de 3m x 3m) para exhibir productos y/o servicios. 
-              Además, se agregará sin cargo la presencia de los logos como auspiciantes en redes sociales, página web y flyers específicos durante el evento.
+              Stand de 3m x 3m en la sede del Congreso para exhibir productos y/o servicios. Incluye presencia de logos en redes sociales, web y flyers.
             </p>
-            <p><strong>Valor:</strong> $300.000</p>
-          </li>
+            <p className="precio">$300.000</p>
+          </div>
 
-          <li>
-            <strong>OPCIÓN 2: BANNER</strong>
+          <div className="opcion-card">
+            <h4>OPCIÓN 2: BANNER</h4>
             <p>
-              En la sede del Congreso habrá lugares específicos para colocar banners o banderas.
-              Incluye sin cargo la presencia de los logos como auspiciantes en redes sociales, página web y flyers específicos durante el evento.
+              Espacios específicos para banners o banderas. Incluye presencia de logos en redes sociales, web y flyers.
             </p>
-            <p><strong>Valor:</strong> $200.000</p>
-          </li>
+            <p className="precio">$200.000</p>
+          </div>
 
-          <li>
-            <strong>OPCIÓN 3: LOGOS EMPRESARIALES</strong>
+          <div className="opcion-card">
+            <h4>OPCIÓN 3: LOGOS EMPRESARIALES</h4>
             <p>
-              Presencia de los logos como auspiciantes en redes sociales, página web y flyers específicos durante el evento.
+              Presencia de los logos como auspiciantes en redes sociales, web y flyers durante el evento.
             </p>
-            <p><strong>Valor:</strong> $100.000</p>
-          </li>
+            <p className="precio">$100.000</p>
+          </div>
 
-          <li>
-            <strong>OPCIÓN 4: SPONSOR ESPECIAL</strong>
+          <div className="opcion-card">
+            <h4>OPCIÓN 4: SPONSOR ESPECIAL</h4>
             <p>
-              Presencia de los logos como auspiciantes en redes sociales, página web y flyers específicos durante el evento.
-              También ofrece la posibilidad de realizar aportes específicos y confidenciales, orientados a necesidades puntuales del proyecto 
-              (por ejemplo: equipamiento, transporte, becas, artículos de librería, etc.), tanto en aportes en especies como dirigidos.
+              Presencia de logos y posibilidad de realizar aportes específicos y confidenciales para necesidades del proyecto (equipamiento, transporte, becas, etc.).
             </p>
-          </li>
-        </ul>
+          </div>
+        </div>
 
-        <p>
-          <strong>Link para participar como sponsor:</strong><br/>
+        <p className="link-sponsor">
+          <strong>👉 Link para participar como sponsor:</strong><br/>
           <a href="https://forms.gle/YkSwquKg9zCkwQ6ZA" target="_blank" rel="noreferrer">
-            https://forms.gle/YkSwquKg9zCkwQ6ZA
+            Completar formulario de inscripción
           </a>
         </p>
       </section>
-
     </div>
   );
 }
