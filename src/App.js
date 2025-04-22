@@ -25,7 +25,7 @@ function App() {
           <Route path='/areas-tematicas' element={<AreasTematicas/>} />
           <Route path='/presentacion-trabajos' element={<PresentacionTrabajos/>} />
           <Route path='/InformacionGeneral' element={<InformacionGeneral/>} />
-          <Route path='/Auspiciantes' element={<Auspiciantes/>}/>
+          <Route path='/Sponsors' element={<Auspiciantes/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

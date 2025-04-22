@@ -39,7 +39,7 @@ function Navbar() {
                         { path: "/areas-tematicas", label: "Áreas Temáticas" },
                         { path: "/presentacion-trabajos", label: "Presentación de Trabajos" },
                         { path: "/InformacionGeneral", label: "Información General" },
-                        { path: "/Auspiciantes", label: "Auspiciantes" }
+                        { path: "/Sponsors", label: "Sponsors" }
                     ].map((item, index) => (
                         <motion.li
                             key={item.path}

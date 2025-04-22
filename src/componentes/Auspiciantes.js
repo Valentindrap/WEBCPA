@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/Auspiciantes.css';
 
-function Auspiciantes() {
+function Sponsors() {
   return (
     <div className="auspiciantes" translate="no">
-      <h1>Auspiciantes</h1>
+      <h1>Sponsors</h1>
 
       {/* <section>
         <h2>Principales</h2>
@@ -84,4 +84,4 @@ function Auspiciantes() {
   );
 }
 
-export default Auspiciantes;
+export default Sponsors;
