@@ -45,7 +45,7 @@ function Organizadores() {
           <li>M.V. Soledad Gurisich. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
         </ul>
 
-      <h2>Comité Academico Cientifico</h2>
+      <h2>Comité Académico Científico</h2>
         <ul>
           <li></li>
         </ul>
