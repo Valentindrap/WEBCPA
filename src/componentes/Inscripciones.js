@@ -9,7 +9,7 @@ function Inscripciones() {
       <h2>Aranceles</h2>
       <ul>
         <li>
-          <strong>Estudiantes universitarios (pregrado-grado):</strong> Entrada libre y gratuita.
+          <strong>Estudiantes universitarios (pregrado-grado):</strong> Inscripción libre y gratuita.
         </li>
         <br></br>
         <li>
@@ -21,9 +21,8 @@ function Inscripciones() {
         </li>
       </ul>
 
-      <h2>Inscripciones con el Formulario de Inscripción</h2>
 
-      <h2>Formulario de Facturación</h2>
+
     </div>
   );
 }

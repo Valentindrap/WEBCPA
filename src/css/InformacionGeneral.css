@@ -10,8 +10,9 @@
 
 .informacion-general h1 {
   text-align: center;
-  color: #A6582D; /* azul institucional */
+  color: #F2843E; /* azul institucional */
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .informacion-general h2 {

@@ -125,11 +125,11 @@
 
     .nav-links {
         flex-direction: row;
-        gap: 20px;
+        gap: 18px;
     }
 
     .nav-links a {
-        font-size: 12px
+        font-size: 13px
     }
 
     .nav-logo {
@@ -139,7 +139,7 @@
 
 @media (min-width: 1500px) {
     .nav-links a {
-        font-size: 16px
+        font-size: 17px
     }
 
 }
