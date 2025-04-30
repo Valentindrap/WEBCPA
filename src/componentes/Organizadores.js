@@ -50,13 +50,6 @@ function Organizadores() {
           <li></li>
         </ul>
 
-      <h2>Comité Colaborador</h2>
-        <ul>
-          <li>Berasatagui Rodrigo</li>
-          <li>Schpetter Analia Veronica</li>
-          <li>Drapanti Schpetter Valentin</li>
-        </ul>
-
 
     </div>
   );
