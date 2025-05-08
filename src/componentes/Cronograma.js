@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import '../css/Cronograma.css';
 
 import disertante1 from '../img/Disertantes/Ana Viola.png';
-import disertante2 from '../img/Disertantes/Gabriela Benavidez.png';
 import disertante3 from '../img/Disertantes/Marcela Carignani.png';
 import disertante4 from '../img/Disertantes/Mariela Dallavia.png';
 import disertante5 from '../img/Disertantes/marina arrieta- España.png';
 import disertante6 from '../img/Disertantes/Narambuena.png';
 import disertante7 from '../img/Disertantes/Valentina Lancioni- Quilmes.png';
+import disertante8 from '../img/Disertantes/Carmen Martínez Graciá - España.png';
 
 function Cronograma() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -28,21 +28,21 @@ function Cronograma() {
     document.body.style.overflow = modalOpen ? 'hidden' : 'auto';
   }, [modalOpen]);
 
-  const disertantesPrimera = [disertante1, disertante2, disertante3, disertante4];
-  const disertantesSegunda = [disertante5, disertante6, disertante7];
+  const disertantesPrimera = [disertante1, disertante3, disertante4, disertante8, disertante5, disertante6];
+  const disertantesSegunda = [disertante7];
 
   return (
     <div className="cronograma">
       <h1>Programa</h1>
       <p>
-        El I COPAT-AL ofrecerá una agenda diversa con conferencias plenarias, espacios de reflexión y acción, y presentaciones de trabajos en formato póster.
+      El I COPAT-AL ofrecerá una agenda diversa compuesta por conferencias plenarias, espacios de reflexión y acción, y presentaciones de trabajos en formato póster.
       </p>
 
       <h2 className="text-center mt-5 mb-3">DISERTANTES: CONFERENCIAS PLENARIAS</h2>
       <div className="container">
         <div className="row">
           {disertantesPrimera.map((img, idx) => (
-            <div className="col-md-3 mb-4" key={idx}>
+            <div className="col-md-4 mb-4" key={idx}>
               <div className="card card-disertante h-100">
                 <img
                   src={img}
@@ -56,7 +56,7 @@ function Cronograma() {
         </div>
         <div className="row segunda-columna">
           {disertantesSegunda.map((img, idx) => (
-            <div className="col-md-3 mb-4" key={idx}>
+            <div className="col-md-4  mb-4" key={idx}>
               <div className="card card-disertante h-100">
                 <img
                   src={img}
