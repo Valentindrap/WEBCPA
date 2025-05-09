@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import '../css/Cronograma.css';
 
 import disertante1 from '../img/Disertantes/Ana Viola.png';
+import disertante2 from '../img/Disertantes/Gabriela Benavidez.png';
 import disertante3 from '../img/Disertantes/Marcela Carignani.png';
 import disertante4 from '../img/Disertantes/Mariela Dallavia.png';
 import disertante5 from '../img/Disertantes/marina arrieta- España.png';
 import disertante6 from '../img/Disertantes/Narambuena.png';
 import disertante7 from '../img/Disertantes/Valentina Lancioni- Quilmes.png';
 import disertante8 from '../img/Disertantes/Carmen Martínez Graciá - España.png';
+import disertante9 from '../img/Disertantes/Lorena Allemandi.png';
+import disertante10 from '../img/Disertantes/Julieta Madero.png';
 
 function Cronograma() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -28,8 +31,8 @@ function Cronograma() {
     document.body.style.overflow = modalOpen ? 'hidden' : 'auto';
   }, [modalOpen]);
 
-  const disertantesPrimera = [disertante1, disertante3, disertante4, disertante8, disertante5, disertante6];
-  const disertantesSegunda = [disertante7];
+  const disertantesPrimera = [disertante1, disertante3, disertante4, disertante8, disertante5, disertante6, disertante7, disertante2, disertante9];
+  const disertantesSegunda = [disertante10];
 
   return (
     <div className="cronograma">
@@ -56,12 +59,12 @@ function Cronograma() {
         </div>
         <div className="row segunda-columna">
           {disertantesSegunda.map((img, idx) => (
-            <div className="col-md-4  mb-4" key={idx}>
-              <div className="card card-disertante h-100">
+            <div className="col-md-4 mb-4" key={idx}>
+              <div className="card card-disertante  h-100">
                 <img
                   src={img}
                   className="card-img-top disertante-img"
-                  alt={`Conferencista ${idx + 5}`}
+                  alt={`Conferencista ${idx + 1}`}
                   onClick={() => handleImageClick(img)}
                 />
               </div>
