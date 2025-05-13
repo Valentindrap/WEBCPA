@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Cronograma.css';
 
-import disertante1 from '../img/Disertantes/Dr. Claudio Fabián Narambuena.png';
-import disertante2 from '../img/Disertantes/Dra. Carmen Martínez Graciá.png';
-import disertante3 from '../img/Disertantes/Dra. Marina Arrieta.png';
-import disertante4 from '../img/Disertantes/Dra. Viola Ana.png';
-import disertante5 from '../img/Disertantes/Julieta Fernández Madero.png';
-import disertante6 from '../img/Disertantes/Lic. Gabriela Benavidez.png';
-import disertante7 from '../img/Disertantes/Lic. Lorena Allemandi.png';
-import disertante8 from '../img/Disertantes/Lic. Mariela Dalla Vía.png';
-import disertante9 from '../img/Disertantes/Lic.Valentina Lancioni.png';
-import disertante10 from '../img/Disertantes/Mg. Marcela Carignani.png';
+import disertante1 from '../img/Disertantes/Dr. Claudio Fabián Narambuena.webp';
+import disertante2 from '../img/Disertantes/Dra. Carmen Martínez Graciá.webp';
+import disertante3 from '../img/Disertantes/Dra. Marina Arrieta.webp';
+import disertante4 from '../img/Disertantes/Dra. Viola Ana.webp';
+import disertante5 from '../img/Disertantes/Julieta Fernández Madero.webp';
+import disertante6 from '../img/Disertantes/Lic. Gabriela Benavidez.webp';
+import disertante7 from '../img/Disertantes/Lic. Lorena Allemandi.webp';
+import disertante8 from '../img/Disertantes/Lic. Mariela Dalla Vía.webp';
+import disertante9 from '../img/Disertantes/Lic.Valentina Lancioni.webp';
+import disertante10 from '../img/Disertantes/Mg. Marcela Carignani.webp';
 
 function Cronograma() {
   const [modalOpen, setModalOpen] = useState(false);
