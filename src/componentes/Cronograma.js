@@ -59,7 +59,7 @@ function Cronograma() {
         </div>
         <div className="row segunda-columna flex-column align-items-center">
           {disertantesSegunda.map((img, idx) => (
-            <div className="col-12 col-sm-10 col-md-8 col-lg-6 mb-4" key={idx}>
+            <div className="col-12 col-sm-10 mb-4" key={idx}>
               <div className="card card-disertante  h-100">
                 <img
                   src={img}
