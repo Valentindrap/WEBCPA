@@ -111,10 +111,12 @@
   transform: scale(1.02);
 }
 
+
 .disertante-img {
   object-fit: cover;
   object-position: center;
   border-radius: 6px;
+
 }
 
 .segunda-columna{

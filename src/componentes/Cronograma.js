@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Cronograma.css';
 
-import disertante1 from '../img/Disertantes/Ana Viola.png';
-import disertante2 from '../img/Disertantes/Gabriela Benavidez.png';
-import disertante3 from '../img/Disertantes/Marcela Carignani.png';
-import disertante4 from '../img/Disertantes/Mariela Dallavia.png';
-import disertante5 from '../img/Disertantes/marina arrieta- España.png';
-import disertante6 from '../img/Disertantes/Narambuena.png';
-import disertante7 from '../img/Disertantes/Valentina Lancioni- Quilmes.png';
-import disertante8 from '../img/Disertantes/Carmen Martínez Graciá - España.png';
-import disertante9 from '../img/Disertantes/Lorena Allemandi.png';
-import disertante10 from '../img/Disertantes/Julieta Madero.png';
+import disertante1 from '../img/Disertantes/Dr. Claudio Fabián Narambuena.png';
+import disertante2 from '../img/Disertantes/Dra. Carmen Martínez Graciá.png';
+import disertante3 from '../img/Disertantes/Dra. Marina Arrieta.png';
+import disertante4 from '../img/Disertantes/Dra. Viola Ana.png';
+import disertante5 from '../img/Disertantes/Julieta Fernández Madero.png';
+import disertante6 from '../img/Disertantes/Lic. Gabriela Benavidez.png';
+import disertante7 from '../img/Disertantes/Lic. Lorena Allemandi.png';
+import disertante8 from '../img/Disertantes/Lic. Mariela Dalla Vía.png';
+import disertante9 from '../img/Disertantes/Lic.Valentina Lancioni.png';
+import disertante10 from '../img/Disertantes/Mg. Marcela Carignani.png';
 
 function Cronograma() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -43,9 +43,9 @@ function Cronograma() {
 
       <h2 className="text-center mt-5 mb-3">DISERTANTES: CONFERENCIAS PLENARIAS</h2>
       <div className="container">
-        <div className="row">
-          {disertantesPrimera.map((img, idx) => (
-            <div className="col-md-4 mb-4" key={idx}>
+      <div className="row flex-column align-items-center">
+        {disertantesPrimera.map((img, idx) => (
+          <div className="col-12 col-sm-10 mb-4" key={idx}>
               <div className="card card-disertante h-100">
                 <img
                   src={img}
@@ -57,9 +57,9 @@ function Cronograma() {
             </div>
           ))}
         </div>
-        <div className="row segunda-columna">
+        <div className="row segunda-columna flex-column align-items-center">
           {disertantesSegunda.map((img, idx) => (
-            <div className="col-md-4 mb-4" key={idx}>
+            <div className="col-12 col-sm-10 col-md-8 col-lg-6 mb-4" key={idx}>
               <div className="card card-disertante  h-100">
                 <img
                   src={img}
