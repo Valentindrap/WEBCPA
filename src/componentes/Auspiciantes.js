@@ -4,7 +4,7 @@ import '../css/Auspiciantes.css';
 function Sponsors() {
   return (
     <div className="auspiciantes" translate="no">
-      <h1>Sponsors</h1>
+      <h1>Auspiciantes</h1>
 
       {/* <section>
         <h2>Principales</h2>
@@ -46,7 +46,6 @@ function Sponsors() {
             <p>
               Stand de 3m x 3m en la sede del Congreso para exhibir productos y/o servicios. Incluye presencia de logos en redes sociales, web y flyers.
             </p>
-            <p className="precio">$300.000</p>
           </div>
 
           <div className="opcion-card">
@@ -54,7 +53,6 @@ function Sponsors() {
             <p>
               Espacios específicos para banners o banderas. Incluye presencia de logos en redes sociales, web y flyers.
             </p>
-            <p className="precio">$200.000</p>
           </div>
 
           <div className="opcion-card">
@@ -62,7 +60,6 @@ function Sponsors() {
             <p>
               Presencia de los logos como auspiciantes en redes sociales, web y flyers durante el evento.
             </p>
-            <p className="precio">$100.000</p>
           </div>
 
           <div className="opcion-card">
