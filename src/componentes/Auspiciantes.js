@@ -1,29 +1,44 @@
 import React from 'react';
 import '../css/Auspiciantes.css';
 
+// Importación de imágenes
+import pico from '../img/auspiciantes/Municipalidad de Pico.png';
+import alvear from '../img/auspiciantes/Municipalidad Alvear.png';
+import heguy from '../img/auspiciantes/Logo Heguy.png';
+import cascada from '../img/auspiciantes/la cascada agua .jfif';
+import hotel from '../img/auspiciantes/HOTEL PICO.jpg';
+import fedea from '../img/auspiciantes/FEDEA_newLogo-01.png';
+import rojas from '../img/auspiciantes/chacinadosrojas.jpeg';
+import brupal from '../img/auspiciantes/brupal.jpg';
+import alarcia from '../img/auspiciantes/alarcia.jpeg';
+import chilito from '../img/auspiciantes/chilito.png'
+
 function Sponsors() {
   return (
     <div className="auspiciantes" translate="no">
       <h1>Auspiciantes</h1>
 
-      {/* <section>
-        <h2>Principales</h2>
-        <ul className="sponsor-list">
-          <li><strong>Ejemplo:</strong> Próximamente..</li>
-          <li><strong>Ejemplo:</strong> Próximamente..</li>
-        </ul>
-      </section>
+      <div className="intro-sponsors">
+        <h2><strong>Empresas e Instituciones que nos acompañan en el I COPAT-AL</strong></h2>
+        <p>
+          Agradecemos profundamente el respaldo de quienes hacen posible este evento. <strong>Sumate</strong> como auspiciante y sé parte de una iniciativa única que conecta la innovación, la ciencia y la industria alimentaria.
+        </p>
+      </div>
 
-      <section>
-        <h2>Auspiciantes Locales</h2>
-        <ul className="sponsor-list">
-          <li><strong>Ejemplo:</strong> Próximamente..</li>
-          <li><strong>Ejemplo:</strong> Próximamente..</li>
-          <li><strong>Ejemplo:</strong> Próximamente..</li>
-        </ul>
-      </section> */}
+      <div className="sponsors-grid">
+        <div className="logo-box"><img src={pico} alt="Municipalidad de Pico" /></div>
+        <div className="logo-box"><img src={alvear} alt="Municipalidad de Alvear" /></div>
+        <div className="logo-box"><img src={heguy} alt="Logo Heguy" /></div>
+        <div className="logo-box"><img src={cascada} alt="La Cascada Agua" /></div>
+        <div className="logo-box"><img src={hotel} alt="Hotel Pico" /></div>
+        <div className="logo-box"><img src={fedea} alt="FEDEA" /></div>
+        <div className="logo-box"><img src={rojas} alt="Chacinados Rojas" /></div>
+        <div className="logo-box"><img src={brupal} alt="Brupal" /></div>
+        <div className="logo-box"><img src={alarcia} alt="Alarcia" /></div>
+        <div className="logo-box"><img src={chilito} alt="chilito" /></div>
+      </div>
 
-      <section>
+      <section className="condiciones-sponsor">
         <h2>Condiciones para ser sponsors en el I COPAT-AL</h2>
         <div className="separator"></div>
 
@@ -71,7 +86,7 @@ function Sponsors() {
         </div>
 
         <p className="link-sponsor">
-          <strong>👉 Link para participar como sponsor:</strong><br/>
+          <strong>👉 Link para participar como sponsor:</strong><br />
           <a href="https://forms.gle/YkSwquKg9zCkwQ6ZA" target="_blank" rel="noreferrer">
             Completar formulario de inscripción
           </a>
