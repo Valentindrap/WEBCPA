@@ -1,17 +1,24 @@
 import React from 'react';
 import '../css/Auspiciantes.css';
 
+
 // Importación de imágenes
-import pico from '../img/auspiciantes/Municipalidad de Pico.png';
-import alvear from '../img/auspiciantes/Municipalidad Alvear.png';
-import heguy from '../img/auspiciantes/Logo Heguy.png';
-import cascada from '../img/auspiciantes/la cascada agua .jfif';
-import hotel from '../img/auspiciantes/HOTEL PICO.jpg';
-import fedea from '../img/auspiciantes/FEDEA_newLogo-01.png';
-import rojas from '../img/auspiciantes/chacinadosrojas.jpeg';
-import brupal from '../img/auspiciantes/brupal.jpg';
-import alarcia from '../img/auspiciantes/alarcia.jpeg';
-import chilito from '../img/auspiciantes/chilito.png'
+import pico from '../img/auspiciantes/Municipalidad de Pico.webp';
+import alvear from '../img/auspiciantes/Municipalidad Alvear.webp';
+import heguy from '../img/auspiciantes/Logo Heguy.webp';
+import cascada from '../img/auspiciantes/la cascada agua .webp';
+import hotel from '../img/auspiciantes/HOTEL PICO.webp';
+import fedea from '../img/auspiciantes/FEDEA_newLogo-01.webp';
+import rojas from '../img/auspiciantes/chacinadosrojas.webp';
+import brupal from '../img/auspiciantes/brupal.webp';
+import alarcia from '../img/auspiciantes/alarcia.webp';
+import chilito from '../img/auspiciantes/chilito.webp';
+import LoobStudio from '../img/auspiciantes/LoobStudio.webp';
+import Citia from '../img/auspiciantes/citia.webp';
+import ICOMEX from '../img/auspiciantes/ICOMEX.webp';
+import Granos from '../img/auspiciantes/Granos del oeste.webp';
+import pelayo from '../img/auspiciantes/pelayo.webp'
+
 
 function Sponsors() {
   return (
@@ -36,6 +43,11 @@ function Sponsors() {
         <div className="logo-box"><img src={brupal} alt="Brupal" /></div>
         <div className="logo-box"><img src={alarcia} alt="Alarcia" /></div>
         <div className="logo-box"><img src={chilito} alt="chilito" /></div>
+        <div className="logo-box"><a href='https://loobstudio.netlify.app/' target='_BLANK'><img src={LoobStudio} alt="LoobStudio"/></a></div>
+        <div className="logo-box"><img src={Citia} alt="Citia" /></div>
+        <div className="logo-box"><img src={ICOMEX} alt="ICOMEX" /></div>
+        <div className="logo-box"><img src={Granos} alt="Granos del oeste S.A." /></div>
+        <div className="logo-box"><img src={pelayo} alt="Pelayo" /></div>
       </div>
 
       <section className="condiciones-sponsor">
