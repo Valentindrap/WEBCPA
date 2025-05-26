@@ -18,6 +18,8 @@ import Citia from '../img/auspiciantes/citia.webp';
 import ICOMEX from '../img/auspiciantes/ICOMEX.webp';
 import Granos from '../img/auspiciantes/Granos del oeste.webp';
 import pelayo from '../img/auspiciantes/pelayo.webp'
+import NovaPizza from '../img/auspiciantes/Logo-2-Nova-Pizza_negro_.webp'
+import ViegoGomez from '../img/auspiciantes/Logo-VG-_negro_.webp'
 
 
 function Sponsors() {
@@ -48,6 +50,8 @@ function Sponsors() {
         <div className="logo-box"><img src={ICOMEX} alt="ICOMEX" /></div>
         <div className="logo-box"><img src={Granos} alt="Granos del oeste S.A." /></div>
         <div className="logo-box"><img src={pelayo} alt="Pelayo" /></div>
+        <div className="logo-box"><img src={NovaPizza} alt="NovaPizza" /></div>
+        <div className="logo-box"><img src={ViegoGomez} alt="ViegoGomez" /></div>
       </div>
 
       <section className="condiciones-sponsor">
