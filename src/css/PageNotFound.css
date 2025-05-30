@@ -1,0 +1,135 @@
+
+
+.notfound-principal {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: var(--texto-claro);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 80vh;
+}
+
+.notfound-banner {
+  width: 100%;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.notfound-banner-overlay {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 90%;
+}
+
+.notfound-banner-overlay h1 {
+  font-size: 2.2rem;
+  color: var(--naranja-quemado);
+  font-weight: bold;
+}
+
+.notfound-banner-overlay p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.notfound-btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: var(--oliva-grisaceo);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.notfound-btn:hover {
+  background-color: var(--hover-dark);
+}
+
+.notfound-tarjeta {
+  background: rgba(127, 151, 116, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin-top: 40px;
+}
+
+.notfound-tarjeta h3 {
+  color: #548488;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.notfound-tarjeta ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.notfound-tarjeta ul li {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .notfound-banner {
+    height: 250px;
+  }
+
+  .notfound-banner-overlay {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .notfound-banner-overlay h1 {
+    font-size: 1.4rem;
+  }
+
+  .notfound-tarjeta {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .notfound-tarjeta h3 {
+    font-size: 1.1rem;
+  }
+
+  .notfound-tarjeta ul li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .notfound-principal {
+    padding: 20px;
+  }
+
+  .notfound-banner {
+    height: 300px;
+  }
+
+  .notfound-tarjeta {
+    width: 95%;
+  }
+}

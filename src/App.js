@@ -12,6 +12,7 @@ import InformacionGeneral from './componentes/InformacionGeneral.js';
 import Footer from './componentes/Footer.js';
 import Auspiciantes from './componentes/Auspiciantes.js';
 import AnimatedPage from './componentes/AnimatedPage.js';
+import PageNotFound from './componentes/PageNotFound.js';
 
 function AppRoutes() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function AppRoutes() {
         <Route path='/presentacion-trabajos' element={<AnimatedPage><PresentacionTrabajos /></AnimatedPage>} />
         <Route path='/InformacionGeneral' element={<AnimatedPage><InformacionGeneral /></AnimatedPage>} />
         <Route path='/Sponsors' element={<AnimatedPage><Auspiciantes /></AnimatedPage>} />
+        <Route path='*' element={<AnimatedPage><PageNotFound /></AnimatedPage>} />
       </Routes>
     </AnimatePresence>
   );
