@@ -20,6 +20,9 @@ import Granos from '../img/auspiciantes/Granos del oeste.webp';
 import pelayo from '../img/auspiciantes/pelayo.webp'
 import NovaPizza from '../img/auspiciantes/Logo-2-Nova-Pizza_negro_.webp'
 import ViegoGomez from '../img/auspiciantes/Logo-VG-_negro_.webp'
+import YPF from '../img/auspiciantes/YPF.webp'
+import MarianaHuerta from '../img/auspiciantes/Mariana Huerta.webp'
+import MinisteriodelaProduccion from '../img/auspiciantes/Ministerio de la producción.webp'
 
 
 function Sponsors() {
@@ -52,6 +55,9 @@ function Sponsors() {
         <div className="logo-box"><img src={pelayo} alt="Pelayo" /></div>
         <div className="logo-box"><img src={NovaPizza} alt="NovaPizza" /></div>
         <div className="logo-box"><img src={ViegoGomez} alt="ViegoGomez" /></div>
+        <div className="logo-box"><img src={YPF} alt="YPF" /></div>
+        <div className="logo-box"><img src={MarianaHuerta} alt="Mariana Huerta" /></div>
+        <div className="logo-box"><img src={MinisteriodelaProduccion} alt="Ministerio de la producción" /></div>
       </div>
 
       <section className="condiciones-sponsor">
