@@ -23,6 +23,9 @@ import ViegoGomez from '../img/auspiciantes/Logo-VG-_negro_.webp'
 import YPF from '../img/auspiciantes/YPF.webp'
 import MarianaHuerta from '../img/auspiciantes/Mariana Huerta.webp'
 import MinisteriodelaProduccion from '../img/auspiciantes/Ministerio de la producción.webp'
+import Cechetto from '../img/auspiciantes/Cechetto 1.webp'
+import ComisionSpeluzzi from '../img/auspiciantes/Comision de Fomento Speluzzi.webp'
+
 
 
 function Sponsors() {
@@ -58,6 +61,8 @@ function Sponsors() {
         <div className="logo-box"><img src={YPF} alt="YPF" /></div>
         <div className="logo-box"><img src={MarianaHuerta} alt="Mariana Huerta" /></div>
         <div className="logo-box"><img src={MinisteriodelaProduccion} alt="Ministerio de la producción" /></div>
+        <div className="logo-box"><img src={Cechetto} alt="Cechetto" /></div>
+        <div className="logo-box"><img src={ComisionSpeluzzi} alt="Comision de Fomento Speluzzi" /></div>
       </div>
 
       <section className="condiciones-sponsor">
