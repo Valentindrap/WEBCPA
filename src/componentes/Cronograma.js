@@ -13,6 +13,11 @@ import disertante9 from '../img/Disertantes/Lic.Valentina Lancioni.webp';
 import disertante10 from '../img/Disertantes/Mg. Marcela Carignani.webp';
 import disertante11 from '../img/Disertantes/Fuensanta.webp';
 import disertante12 from '../img/Disertantes/Marina Santaella.webp';
+import cronograma1 from '../img/Cronograma/cronograma1.webp';
+import cronograma2 from '../img/Cronograma/cronograma2.webp';
+import cronograma3 from '../img/Cronograma/cronograma3.webp';
+import cronograma4 from '../img/Cronograma/cronograma4.webp';
+
 
 function Cronograma() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -42,6 +47,36 @@ function Cronograma() {
       <p>
       El I COPAT-AL ofrecerá una agenda diversa compuesta por conferencias plenarias, espacios de reflexión y acción, y presentaciones de trabajos en formato póster.
       </p>
+
+      <div className="cronograma-pdf-section text-center my-4">
+        <h2>Cronograma</h2>
+        <p>Puedes visualizar el cronograma por bloques en imágenes o acceder al PDF completo.</p>
+
+        <div className="container">
+          <div className="row justify-content-center">
+            {[cronograma1, cronograma2, cronograma3, cronograma4].map((img, idx) => (
+              <div className="col-12 col-md-6 mb-3" key={idx}>
+                  <img
+                    src={img}
+                    alt={`Cronograma Parte ${idx + 1}`}
+                    className="img-fluid rounded shadow-sm"
+                  />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href="/docs/cronograma.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary mt-3"
+        >
+          Ver Cronograma completo en PDF
+        </a>
+      </div>
+
+
 
       <h2 className="text-center mt-5 mb-3">DISERTANTES: CONFERENCIAS PLENARIAS</h2>
       <div className="container">

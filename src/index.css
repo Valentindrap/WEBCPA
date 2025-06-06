@@ -19,7 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("/src/img/Background.webp") ;
-  background-size: cover;
   
   background-color: black;
 }
