@@ -154,6 +154,16 @@
   user-select: none;
 }
 
+.cronograma-pdf-section h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.cronograma-pdf-section img {
+  transition: transform 0.2s ease;
+}
+
+
 @keyframes zoomIn {
   from { transform: scale(0.7); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
@@ -191,18 +201,8 @@
 
 }
 
-.cronograma-pdf-section h2 {
-  font-weight: bold;
-  color: #333;
-}
 
-.cronograma-pdf-section img {
-  transition: transform 0.2s ease;
-}
 
-.cronograma-pdf-section img:hover {
-  transform: scale(1.03);
-}
 
 
 

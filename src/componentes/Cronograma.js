@@ -55,7 +55,7 @@ function Cronograma() {
         <div className="container">
           <div className="row justify-content-center">
             {[cronograma1, cronograma2, cronograma3, cronograma4].map((img, idx) => (
-              <div className="col-12 col-md-6 mb-3" key={idx}>
+              <div className="col-12" key={idx}>
                   <img
                     src={img}
                     alt={`Cronograma Parte ${idx + 1}`}
