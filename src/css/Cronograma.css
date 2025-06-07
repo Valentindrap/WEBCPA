@@ -160,7 +160,7 @@
 }
 
 .cronograma-pdf-section img {
-  transition: transform 0.2s ease;
+  max-width: 80%;
 }
 
 
