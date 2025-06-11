@@ -25,6 +25,10 @@ import MarianaHuerta from '../img/auspiciantes/Mariana Huerta.webp'
 import MinisteriodelaProduccion from '../img/auspiciantes/Ministerio de la producción.webp'
 import Cechetto from '../img/auspiciantes/Cechetto 1.webp'
 import ComisionSpeluzzi from '../img/auspiciantes/Comision de Fomento Speluzzi.webp'
+import Bosco from '../img/auspiciantes/Bosco.webp'
+import Changus from '../img/auspiciantes/Changus.webp'
+import Insubio from '../img/auspiciantes/Insubio.webp'
+import laorquidia from '../img/auspiciantes/la orquidia.webp'
 
 
 
@@ -63,6 +67,10 @@ function Sponsors() {
         <div className="logo-box"><img src={MinisteriodelaProduccion} alt="Ministerio de la producción" /></div>
         <div className="logo-box"><img src={Cechetto} alt="Cechetto" /></div>
         <div className="logo-box"><img src={ComisionSpeluzzi} alt="Comision de Fomento Speluzzi" /></div>
+        <div className="logo-box"><img src={Bosco} alt="Bosco" /></div>
+        <div className="logo-box"><img src={Changus} alt="Changus" /></div>
+        <div className="logo-box"><img src={Insubio} alt="Insubio" /></div>
+        <div className="logo-box"><img src={laorquidia} alt="la orquidia" /></div>
       </div>
 
       <section className="condiciones-sponsor">
