@@ -29,6 +29,10 @@ import Bosco from '../img/auspiciantes/Bosco.webp'
 import Changus from '../img/auspiciantes/Changus.webp'
 import Insubio from '../img/auspiciantes/Insubio.webp'
 import laorquidia from '../img/auspiciantes/la orquidia.webp'
+import aguaenvasada from '../img/auspiciantes/aguaenvasada.webp'
+import DonFelipe from '../img/auspiciantes/DonFelipe.webp'
+import Frutopampa from '../img/auspiciantes/Frutopampa.webp'
+import metalmaq from '../img/auspiciantes/metalmaq.webp'
 
 
 
@@ -71,6 +75,10 @@ function Sponsors() {
         <div className="logo-box"><img src={Changus} alt="Changus" /></div>
         <div className="logo-box"><img src={Insubio} alt="Insubio" /></div>
         <div className="logo-box"><img src={laorquidia} alt="la orquidia" /></div>
+        <div className="logo-box"><img src={aguaenvasada} alt="aguaenvasada" /></div>
+        <div className="logo-box"><img src={DonFelipe} alt="Don Felipe" /></div>
+        <div className="logo-box"><img src={Frutopampa} alt="Frutopampa" /></div>
+        <div className="logo-box"><img src={metalmaq} alt="metalmaq" /></div>
       </div>
 
       <section className="condiciones-sponsor">
