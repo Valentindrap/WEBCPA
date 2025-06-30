@@ -42,7 +42,11 @@ function PresentacionTrabajos() {
 
       <h2>Fechas importantes</h2>
       <ul>
-        <li><strong>Recepción de trabajos:</strong> Desde el 5 de junio hasta el 30 de junio</li>
+        <li>
+          <strong>Recepción de trabajos:</strong> Desde el 5 de junio hasta{' '}
+          <span style={{ textDecoration: 'line-through', color: 'red' }}>30 de junio</span>{' '}
+          <strong>extendido hasta el 18 de julio</strong>
+        </li>
         <li><strong>Notificación de trabajos aceptados:</strong> A partir del 29 de agosto</li>
         <li><strong>Envío de versión final:</strong> Desde el 29 de agosto hasta el 8 de septiembre</li>
       </ul>
