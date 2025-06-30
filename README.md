@@ -1,65 +1,77 @@
-# 🧠 Copatal
+# 🧠 WEBCPA
 
-**Copatal** es una aplicación web simple desarrollada como proyecto de aprendizaje. El objetivo principal es brindar una experiencia básica de catálogo de productos (o juegos), combinando HTML, CSS, JavaScript básico, PHP y MySQL.
+**WEBCPA** es un sitio web informativo desarrollado con React que presenta un evento académico con cronograma, disertantes, universidades participantes y patrocinadores. Este proyecto fue creado como práctica y exposición para mejorar habilidades en desarrollo frontend.
 
 ## 🚀 Características
 
-- Página de inicio moderna y simple  
-- Catálogo dinámico de productos/juegos  
-- Sistema de login (PHP + MySQL)  
-- Diseño responsive  
-- Animaciones básicas con CSS  
-- Proyecto desplegado en: [copatal.onrender.com](https://copatal.onrender.com)
+- Diseño moderno y responsive
+- Secciones con cronograma del evento
+- Información de disertantes y universidades
+- Galería de auspiciantes
+- Estructura organizada en componentes
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript (básico)  
-- PHP  
-- MySQL  
-- Render (para el deploy)
+- React
+- HTML5 / JSX
+- CSS3
+- JavaScript
+- Vite (si aplica) o Create React App
+- Render (para el hosting)
 
 ## 📂 Estructura del proyecto
 
 ```
-/src
-  /php
-    - login.php
-    - conexion.php
-  /css
-    - estilos.css
-  /js
-    - main.js
-index.html
+public/
+  ├── index.html
+  ├── logo192.png / logo512.png / logo.webp
+  └── manifest.json
+
+src/
+  ├── componentes/
+  ├── css/
+  ├── img/
+  │   ├── auspiciantes/
+  │   ├── Cronograma/
+  │   ├── Disertantes/
+  │   └── Unis/
+  ├── App.js / App.css
+  ├── index.js
+  └── ...
 ```
 
-## ⚙️ Instalación local
+## 🧪 Instalación local
 
 1. Cloná el repositorio:
 
 ```bash
-git clone https://github.com/valentindrap/copatal.git
+git clone https://github.com/Valentindrap/WEBCPA.git
 ```
 
-2. Configurá un entorno local (por ejemplo, XAMPP o Laragon)
+2. Instalá las dependencias:
 
-3. Importá la base de datos desde el archivo `copatal.sql` (si lo tenés)
-
-4. Asegurate de actualizar los datos de conexión en `conexion.php` según tu entorno local
-
-5. Abrí el proyecto desde tu navegador en:
-
-```
-http://localhost/copatal
+```bash
+npm install
 ```
 
-## 🧑‍💻 Autor
+3. Ejecutá el proyecto en modo desarrollo:
+
+```bash
+npm start
+```
+
+4. Abrí tu navegador en `http://localhost:3000`
+
+## 🌐 Sitio desplegado
+
+👉 [copatal.onrender.com](https://copatal.onrender.com)
+
+## 👤 Autor
 
 Desarrollado por **Valentín Drapanti**  
 📧 [valentindrap01@gmail.com](mailto:valentindrap01@gmail.com)  
-📱 [WhatsApp](https://wa.me/542302354403) — +54 2302 354403  
+📱 [WhatsApp](https://wa.me/542302354403)
 
 ---
 
-> Este proyecto fue realizado con fines educativos mientras estudio Ingeniería en Sistemas. Todavía estoy aprendiendo, ¡pero cada línea de código suma!
+> Este sitio fue desarrollado como parte de un proyecto educativo y tiene fines expositivos. Cada mejora es un paso más en mi camino como desarrollador frontend 🚀
