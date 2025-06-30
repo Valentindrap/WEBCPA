@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🧠 Copatal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Copatal** es una aplicación web simple desarrollada como proyecto de aprendizaje. El objetivo principal es brindar una experiencia básica de catálogo de productos (o juegos), combinando HTML, CSS, JavaScript básico, PHP y MySQL.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- Página de inicio moderna y simple  
+- Catálogo dinámico de productos/juegos  
+- Sistema de login (PHP + MySQL)  
+- Diseño responsive  
+- Animaciones básicas con CSS  
+- Proyecto desplegado en: [copatal.onrender.com](https://copatal.onrender.com)
 
-### `npm start`
+## 🛠️ Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML5  
+- CSS3  
+- JavaScript (básico)  
+- PHP  
+- MySQL  
+- Render (para el deploy)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Estructura del proyecto
 
-### `npm test`
+```
+/src
+  /php
+    - login.php
+    - conexion.php
+  /css
+    - estilos.css
+  /js
+    - main.js
+index.html
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Instalación local
 
-### `npm run build`
+1. Cloná el repositorio:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/valentindrap/copatal.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Configurá un entorno local (por ejemplo, XAMPP o Laragon)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Importá la base de datos desde el archivo `copatal.sql` (si lo tenés)
 
-### `npm run eject`
+4. Asegurate de actualizar los datos de conexión en `conexion.php` según tu entorno local
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Abrí el proyecto desde tu navegador en:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+http://localhost/copatal
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧑‍💻 Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Desarrollado por **Valentín Drapanti**  
+📧 [valentindrap01@gmail.com](mailto:valentindrap01@gmail.com)  
+📱 [WhatsApp](https://wa.me/542302354403) — +54 2302 354403  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Este proyecto fue realizado con fines educativos mientras estudio Ingeniería en Sistemas. Todavía estoy aprendiendo, ¡pero cada línea de código suma!
