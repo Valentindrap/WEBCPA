@@ -21,11 +21,11 @@ function Inscripciones() {
         </li>
         <br />
         <li>
-          <strong>Estudiantes universitarios de posgrado / Docentes y/o Investigadores:</strong> $40.000 hasta el mes de junio y $60.000 del mes de junio en adelante.
+          <strong>Estudiantes universitarios de posgrado / Docentes y/o Investigadores:</strong> $40.000 hasta el 15 de julio y $60.000 del 15 de julio en adelante.
         </li>
         <br />
         <li>
-          <strong>Público general:</strong> $50.000 hasta el mes de junio y $70.000 del mes de junio en adelante.
+          <strong>Público general:</strong> $50.000 hasta el 15 de julio y $70.000 del 15 de julio en adelante.
         </li>
       </ul>
 
