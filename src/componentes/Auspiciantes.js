@@ -33,7 +33,15 @@ import aguaenvasada from '../img/auspiciantes/aguaenvasada.webp'
 import DonFelipe from '../img/auspiciantes/DonFelipe.webp'
 import Frutopampa from '../img/auspiciantes/Frutopampa.webp'
 import metalmaq from '../img/auspiciantes/metalmaq.webp'
-
+import Bodegasdeldesierto from '../img/auspiciantes/Bodegas del desierto.webp'
+import Colegiodenutricionistas from '../img/auspiciantes/Colegio de Nutricionistas.webp'
+import DulcePaloma from '../img/auspiciantes/Dulce paloma.webp'
+import FrigorificoPico from '../img/auspiciantes/Frigorifico Pico.webp'
+import fruggina from '../img/auspiciantes/fruggina.webp'
+import JHAN from '../img/auspiciantes/JHAN.webp'
+import LaTablita from '../img/auspiciantes/La tablita.webp'
+import Dalmasso from '../img/auspiciantes/Logos - Dalmasso_page-0001.webp'
+import PampaLab from '../img/auspiciantes/Pampa lab.webp'
 
 
 function Sponsors() {
@@ -79,6 +87,15 @@ function Sponsors() {
         <div className="logo-box"><img src={DonFelipe} alt="Don Felipe" /></div>
         <div className="logo-box"><img src={Frutopampa} alt="Frutopampa" /></div>
         <div className="logo-box"><img src={metalmaq} alt="metalmaq" /></div>
+        <div className="logo-box"><img src={Bodegasdeldesierto} alt="Bodegas del desierto" /></div>
+        <div className="logo-box"><img src={Colegiodenutricionistas} alt="Colegio de Nutricionistas" /></div>
+        <div className="logo-box"><img src={DulcePaloma} alt="Dulce Paloma" /></div>
+        <div className="logo-box"><img src={FrigorificoPico} alt="Frigorifico Pico" /></div>
+        <div className="logo-box"><img src={fruggina} alt="fruggina" /></div>
+        <div className="logo-box"><img src={JHAN} alt="JHAN" /></div>
+        <div className="logo-box"><img src={LaTablita} alt="La Tablita" /></div>
+        <div className="logo-box"><img src={Dalmasso} alt="Dalmasso" /></div>
+        <div className="logo-box"><img src={PampaLab} alt="Pampa Lab" /></div>
       </div>
 
       <section className="condiciones-sponsor">
