@@ -19,38 +19,47 @@ function Organizadores() {
         <li>Facultad de Ciencia y Tecnología de los Alimentos. Universidad Nacional del Comahue</li>
       </ul>
 
-
-
       <h2>Autoridades del Congreso</h2>
-        <ul>
-          <li>Presidenta: Esp. Mariana Forte. Facultad de Ciencias Veterinaria, Universidad Nacional de La Pampa</li>
-          <li>Vicepresidenta: Lic. Mariana Serra. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
-        </ul>
-
+      <ul>
+        <li>Presidenta: Esp. Mariana Forte. Facultad de Ciencias Veterinaria, Universidad Nacional de La Pampa</li>
+        <li>Vicepresidenta: Lic. Mariana Serra. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
+      </ul>
 
       <h2>Comité Organizador</h2>
-        <ul>
-          <li>Dra. Natalia Bongiovani. Escuela de Producción, Tecnología y Medio Ambiente, Sede Alto Valle- Valle Medio. Universidad Nacional de Río Negro</li>
-          <li>Dra. Lucía da Cruz Cabral. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
-          <li>Dr. Mario José Calafat. Facultad de Agronomía. Universidad Nacional de La Pampa.</li>
-          <li>Dra. Silvia Marina Ardoino. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
-          <li>Lic. Rocio Ramirez Ilariuzzi. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
-          <li>Dr. Mauricio Miguel Coletto. Escuela de Producción, Tecnología y Medio Ambiente, Sede Alto Valle- Valle Medio. Universidad Nacional de Río Negro</li>
-          <li>Dr. María Belen Buglione. Escuela de Veterinaria y Producción Agroindustrial, Sede Alto Valle- Valle Medio. Universidad Nacional Río Negro</li>
-          <li>Mg. Emilce Rojo. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
-          <li>Dra. Mónica Kozykariski. Escuela de Producción, Ambiente y Desarrollo Sostenible. Universidad del Chubut.</li>
-          <li>Mg. Valentín Tassile. Facultad de Ciencias y Tecnología de los Alimentos. Universidad Nacional del Comahue.</li>
-          <li>Dr. Maria Belén Mazzucco. Facultad de Ciencias y Tecnología de los Alimentos. Universidad Nacional del Comahue.</li>
-          <li>Ing. Francisco Nuñez. Facultad Regional de Tierra del Fuego. Universidad Tecnológica Nacional.</li>
-          <li>M.V. Soledad Gurisich. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
-        </ul>
+      <ul>
+        <li>Dra. Natalia Bongiovani. Escuela de Producción, Tecnología y Medio Ambiente, Sede Alto Valle- Valle Medio. Universidad Nacional de Río Negro</li>
+        <li>Dra. Lucía da Cruz Cabral. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
+        <li>Dr. Mario José Calafat. Facultad de Agronomía. Universidad Nacional de La Pampa.</li>
+        <li>Dra. Silvia Marina Ardoino. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
+        <li>Lic. Rocio Ramirez Ilariuzzi. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
+        <li>Dr. Mauricio Miguel Coletto. Escuela de Producción, Tecnología y Medio Ambiente, Sede Alto Valle- Valle Medio. Universidad Nacional de Río Negro</li>
+        <li>Dr. María Belen Buglione. Escuela de Veterinaria y Producción Agroindustrial, Sede Alto Valle- Valle Medio. Universidad Nacional Río Negro</li>
+        <li>Mg. Emilce Rojo. Facultad de Ciencias Veterinaria. Universidad Nacional de La Pampa.</li>
+        <li>Dra. Mónica Kozykariski. Escuela de Producción, Ambiente y Desarrollo Sostenible. Universidad del Chubut.</li>
+        <li>Mg. Valentín Tassile. Facultad de Ciencias y Tecnología de los Alimentos. Universidad Nacional del Comahue.</li>
+        <li>Dr. Maria Belén Mazzucco. Facultad de Ciencias y Tecnología de los Alimentos. Universidad Nacional del Comahue.</li>
+        <li>Ing. Francisco Nuñez. Facultad Regional de Tierra del Fuego. Universidad Tecnológica Nacional.</li>
+        <li>M.V. Soledad Gurisich. Facultad Regional Chubut. Universidad Tecnológica Nacional.</li>
+      </ul>
 
       <h2>Comité Académico Científico</h2>
-        <ul>
-          <li></li>
-        </ul>
-
-
+      <ul>
+        <li>María Juliana Dielschneider — Fac. de Cs. Veterinarias / Ingeniería, UNLPam</li>
+        <li>Lucía da Cruz Cabral — Facultad Regional Chubut, UTN</li>
+        <li>Claudia Andrea Tortone — Facultad de Ciencias Veterinarias, UNLPam</li>
+        <li>Adriana Beatriz Simes — Facultad de Ciencias y Tecnología de los Alimentos, UNCo</li>
+        <li>María Soledad Gurisich — UTN FRCH</li>
+        <li>Lorena Franceschinis — Facultad de Ciencias y Tecnología de los Alimentos, UNCo</li>
+        <li>Elizabeth Haydee Ohaco Dominguez — FACTA, Universidad Nacional del Comahue</li>
+        <li>Indira Marián Gatti — Universidad del Chubut</li>
+        <li>María Clara Tarifa — Universidad Nacional de Río Negro (Escuela de Producción, Tecnología y Medio Ambiente)</li>
+        <li>María Belén Paesani — FCV, INTI</li>
+        <li>Susana Diez — PROBIEN</li>
+        <li>Ana Laura Ardiles — Universidad del Chubut</li>
+        <li>Andres Felipe Rocha Parra — UNRN</li>
+        <li>Mariana Forte — Facultad de Ciencias Veterinarias, UNLPam</li>
+        <li>María Belén Buglione — Universidad Nacional de Río Negro</li>
+      </ul>
     </div>
   );
 }
