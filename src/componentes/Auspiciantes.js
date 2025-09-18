@@ -42,6 +42,8 @@ import JHAN from '../img/auspiciantes/JHAN.webp'
 import LaTablita from '../img/auspiciantes/La tablita.webp'
 import Dalmasso from '../img/auspiciantes/Logos - Dalmasso_page-0001.webp'
 import PampaLab from '../img/auspiciantes/Pampa lab.webp'
+import dumascat from '../img/auspiciantes/dumascat.webp'
+import onelab from '../img/auspiciantes/onelab.webp'
 
 
 function Sponsors() {
@@ -96,6 +98,8 @@ function Sponsors() {
         <div className="logo-box"><img src={LaTablita} alt="La Tablita" /></div>
         <div className="logo-box"><img src={Dalmasso} alt="Dalmasso" /></div>
         <div className="logo-box"><img src={PampaLab} alt="Pampa Lab" /></div>
+        <div className="logo-box"><img src={dumascat} alt="dumascat" /></div>
+        <div className="logo-box"><img src={onelab} alt="onelab" /></div>
       </div>
 
       <section className="condiciones-sponsor">
