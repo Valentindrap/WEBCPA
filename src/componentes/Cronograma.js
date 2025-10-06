@@ -68,7 +68,7 @@ function Cronograma() {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1xO0dlZxyZH6Ma2VKTurqoQQFepyJs8es/view?usp=sharing"
+          href="https://drive.google.com/file/d/1IswSA4COaMi5JMvjul5b3gxvT1Mk3nG6/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary mt-3"
