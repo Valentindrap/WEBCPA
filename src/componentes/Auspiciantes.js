@@ -44,7 +44,12 @@ import Dalmasso from '../img/auspiciantes/Logos - Dalmasso_page-0001.webp'
 import PampaLab from '../img/auspiciantes/Pampa lab.webp'
 import dumascat from '../img/auspiciantes/dumascat.webp'
 import onelab from '../img/auspiciantes/onelab.webp'
-
+import volante from '../img/auspiciantes/e salud volante-JPG-resumen.webp'
+import imprenta from '../img/auspiciantes/imprenta.webp'
+import chipaceria from '../img/auspiciantes/La chipaceria.webp'
+import linea from '../img/auspiciantes/linea.webp'
+import ohra from '../img/auspiciantes/ohra pampa.webp'
+import santander from '../img/auspiciantes/Santander 2.webp'
 
 function Sponsors() {
   return (
@@ -100,6 +105,12 @@ function Sponsors() {
         <div className="logo-box"><img src={PampaLab} alt="Pampa Lab" /></div>
         <div className="logo-box"><img src={dumascat} alt="dumascat" /></div>
         <div className="logo-box"><img src={onelab} alt="onelab" /></div>
+        <div className="logo-box"><img src={volante} alt="volante" /></div>
+        <div className="logo-box"><img src={santander} alt="santander" /></div>
+        <div className="logo-box"><img src={imprenta} alt="imprenta" /></div>
+        <div className="logo-box"><img src={chipaceria} alt="chipaceria" /></div>
+        <div className="logo-box"><img src={linea} alt="linea" /></div>
+        <div className="logo-box"><img src={ohra} alt="ohra" /></div>
       </div>
 
       <section className="condiciones-sponsor">

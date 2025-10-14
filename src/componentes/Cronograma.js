@@ -14,6 +14,7 @@ import disertante10 from '../img/Disertantes/Mg. Marcela Carignani.webp';
 import disertante11 from '../img/Disertantes/Fuensanta.webp';
 import disertante12 from '../img/Disertantes/Marina Santaella.webp';
 import disertante13 from '../img/Disertantes/Bollmann.webp';
+import disertante14 from '../img/Disertantes/gallo.webp';
 import cronograma1 from '../img/Cronograma/cronograma1.webp';
 import cronograma2 from '../img/Cronograma/cronograma2.webp';
 import cronograma3 from '../img/Cronograma/cronograma3.webp';
@@ -41,7 +42,7 @@ function Cronograma() {
   }, [modalOpen]);
 
   const disertantesPrimera = [disertante1, disertante3, disertante4, disertante8, disertante5, disertante6, disertante7, disertante2, disertante9];
-  const disertantesSegunda = [disertante10, disertante11, disertante12, disertante13];
+  const disertantesSegunda = [disertante10, disertante11, disertante12, disertante13, disertante14];
 
   return (
     <div className="cronograma">
