@@ -18,6 +18,7 @@ import cronograma1 from '../img/Cronograma/cronograma1.webp';
 import cronograma2 from '../img/Cronograma/cronograma2.webp';
 import cronograma3 from '../img/Cronograma/cronograma3.webp';
 import cronograma4 from '../img/Cronograma/cronograma4.webp';
+import cronograma5 from '../img/Cronograma/cronograma5.webp';
 
 
 function Cronograma() {
@@ -55,7 +56,7 @@ function Cronograma() {
 
         <div className="container">
           <div className="row justify-content-center">
-            {[cronograma1, cronograma2, cronograma3, cronograma4].map((img, idx) => (
+            {[cronograma1, cronograma2, cronograma3, cronograma4, cronograma5].map((img, idx) => (
               <div className="col-12" key={idx}>
                   <img
                     src={img}
@@ -68,7 +69,7 @@ function Cronograma() {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1IswSA4COaMi5JMvjul5b3gxvT1Mk3nG6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JJ-XDTsYBKOD8UNT1lFdaRkpXDsC3g7z/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary mt-3"

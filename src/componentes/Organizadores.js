@@ -44,6 +44,7 @@ function Organizadores() {
 
       <h2>Comité Académico Científico</h2>
       <ul>
+        <li>Maria bettibna Gomez — Facultad de Ciencias Veterinarias y Facultad de Ciencias de la Salud UNLPam</li>
         <li>María Juliana Dielschneider — Fac. de Cs. Veterinarias / Ingeniería, UNLPam</li>
         <li>Lucía da Cruz Cabral — Facultad Regional Chubut, UTN</li>
         <li>Claudia Andrea Tortone — Facultad de Ciencias Veterinarias, UNLPam</li>
@@ -59,6 +60,32 @@ function Organizadores() {
         <li>Andres Felipe Rocha Parra — UNRN</li>
         <li>Mariana Forte — Facultad de Ciencias Veterinarias, UNLPam</li>
         <li>María Belén Buglione — Universidad Nacional de Río Negro</li>
+        <li>Javier Cerliani — Facultad de Cs. veterinarias-UNLPam</li>
+        <li>Maria Isabel Lujan — Facultad Ciencia Tecnologia de los Alimentos- UNCo</li>
+        <li>Diego Fernando Rocha Parra — CONICET/Universidad Nacional de Rio Negro</li>
+        <li>Cecilia Belen Schiaffino — UNLPAM</li>
+        <li>Maria Belen Mazzucco — UNIVERSIDAD NACIONAL DEL COMAHUE, FACTA</li>
+        <li>Soraya Ivonne Corvalan — UTN FRCH</li>
+        <li>Mónica Primost — UTN-FRCH</li>
+        <li>Delia Williamson — Fcv UNLPAM</li>
+        <li>María Belén Paesani — Fac . De cs.veterinarias / INTI</li>
+        <li>Mariela Alejandra García Cachau — Facultad de Cs Veterinarias UNLPam</li>
+        <li>Facundo Carlos Namor — Facultad de Ciencias y Tecnología de los Alimentos, Universidad Nacional del Comahue</li>
+        <li>Pedro Vicente Palermo — Fac. Cs. Veterinarias</li>
+        <li>Rocio Liz Ramirez Ilariuzzi — Facultad de Ciencias Veterinarias- UNLPAM</li>
+        <li>María Ana Loubes — Instituto de Tecnología de Alimentos y Procesos Químicos (ITAPROQ) - CONICET - UBA; Departamento de Industrias - FCEyN - UBA</li>
+        <li>Carolina Antonella Paulino — Facultad de Ciencias y Tecnologia de los Alimentos - Universidad Nacional del Comahue</li>
+        <li>Yolanda Leticia Curilén — Facultad de Ciencias y Tecnología de los Alimentos - Uncomahue</li>
+        <li>Otrosky Roberto — FCV-UNLPam</li>
+        <li>Mauricio Miguel Coletto — Escuela de Producción, Tecnología, y Medio Ambiente, Sede AV-VM, UNRN</li>
+        <li>Natalia Bongiovani — Universidad Nacional de Río Negro</li>
+        <li>Fernando Gaspar Dellatorre — UTN FRCH</li>
+        <li>Daniela Marisol Salvatori — Universidad Nacional del Comahue- Facultad de Ciencias y Tecnología de los Alimentos</li>
+        <li>Patricia Angelica Barril — CIATI</li>
+        <li>Silvana Mariela Azcarate — INCITAP-CONICET-UNLPam</li>
+        <li>Rosa Karina Nesprias — UNIVERSIDAD NCIONAL DEL CENTRO DE LA PROVINCIA DE BUENOS AIRES</li>
+        <li>Emilse Rojo — Universidad Nacional de la Pampa, Facultad de Ciencias Veterinarias</li>
+
       </ul>
     </div>
   );
